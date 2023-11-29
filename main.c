@@ -17,16 +17,18 @@ int main()
     int matriz1[fil][col];
     int matriz2[fil][col];
 
+    printf("matriz1\n");
     for (int i = 0; i < fil; ++i)
     {
+    
         for (int j = 0; j < col; ++j)
         {
             matriz1[i][j] = rand() % 101; // Números aleatorios entre 0 y 100
             printf("%d\t", matriz1[i][j]);
         }
-        printf("\n");
+        printf(" \n");
     }
-
+         printf("matriz2\n");
     for (int i = 0; i < fil; ++i)
     {
         for (int j = 0; j < col; ++j)
